@@ -1,0 +1,97 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import BlogCard from "./BlogsCards";
+import Particle from "../Particle";
+import "../../style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import healthcare from "../../Assets/Projects/healthcare.png";
+import meme from "../../Assets/Projects/meme.jpg";
+import railway from "../../Assets/Projects/railway.jpg";
+
+import xampp from "../../Assets/Projects/xampp.png";
+
+
+function Projects() {
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Works </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={healthcare}
+              isBlog={false}
+              title="Blockchain based Smart Healthcare
+System"
+              description="Developed a web application to store patients health
+records on IPFS and to virtually consult with doctors.
+Technology Used: Solidity, ReactJs, CSS, Bootstrap, Version
+Control (Github)"
+              link="https://github.com/yashagrawal3107/Blockchain-based-Smart-Healthcare-System"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meme}
+              isBlog={false}
+              title="Decentralized Meme Marketplace"
+              description="Developed an application based on blockchain to upload
+Memes as a digital collectible.
+Technology Used: ReactJs, CSS, Bootstrap, Solidity"
+              link="https://github.com/yashagrawal3107/Meme-Marketplace"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={railway}
+              isBlog={false}
+              title="Railway Reservation Management
+System"
+              description="System to book train tickets and maintain the train details.
+It has two sides: User side (Passengers)
+Admin side.
+Technology used: HTML, CSS, Php, SQL"
+              link="https://github.com/yashagrawal3107/Railway-Management-System-Dbms"
+            />
+          </Col>
+
+          
+        </Row>
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Blog </strong> Posts
+        </h1>
+        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+        <Row style={{ justifyContent: "center" }}>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={xampp}
+              link=""
+              title="How to install XAMPP on Windows?"
+              site="https://dev.to/yashagrawal3107/how-to-install-xampp-in-windows-1a24"
+            />
+          </Col>
+          {/* <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={plant}
+              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+              title="Plant AI"
+              site="medium.com"
+            />
+          </Col> */}
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Projects;
