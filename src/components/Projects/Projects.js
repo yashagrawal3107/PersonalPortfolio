@@ -31,10 +31,9 @@ function Projects() {
               isBlog={false}
               title="Blockchain based Smart Healthcare
 System"
-              description="Developed a web application to store patients health
-records on IPFS and to virtually consult with doctors.
-Technology Used: Solidity, ReactJs, CSS, Bootstrap, Version
-Control (Github)"
+              description={`Developed a web application to store patients health
+records on IPFS and to virtually consult with doctors.`}
+              technology = " Solidity, ReactJs, CSS, Bootstrap, Version Control (Github)"
               link="https://github.com/yashagrawal3107/Blockchain-based-Smart-Healthcare-System"
             />
           </Col>
@@ -44,9 +43,9 @@ Control (Github)"
               imgPath={meme}
               isBlog={false}
               title="Decentralized Meme Marketplace"
-              description="Developed an application based on blockchain to upload
-Memes as a digital collectible.
-Technology Used: ReactJs, CSS, Bootstrap, Solidity"
+              description={`Developed an application based on blockchain to upload
+Memes as a digital collectible.`}
+technology = " ReactJs, CSS, Bootstrap, Solidity"
               link="https://github.com/yashagrawal3107/Meme-Marketplace"
             />
           </Col>
@@ -58,9 +57,9 @@ Technology Used: ReactJs, CSS, Bootstrap, Solidity"
               title="Railway Reservation Management
 System"
               description="System to book train tickets and maintain the train details.
-It has two sides: User side (Passengers)
-Admin side.
-Technology used: HTML, CSS, Php, SQL"
+It has two sides: User side (Passengers) &
+Admin side."
+              technology = " HTML, CSS, Php, SQL"
               link="https://github.com/yashagrawal3107/Railway-Management-System-Dbms"
             />
           </Col>

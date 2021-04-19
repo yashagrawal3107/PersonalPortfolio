@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/avatar2.svg";
 
 function About() {
   return (
@@ -28,11 +28,11 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            md={4}
+            style={{ paddingTop: "110px", paddingBottom: "50px" }}
             className="about-img"
           >
-            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
+            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -44,6 +44,7 @@ function About() {
           <Techstack iconName="cib-pytorch" />
           <Techstack iconName="cib-tensorflow" /> */}
           <Techstack iconName="devicon-javascript-plain " />
+          {/* <Techstack iconName="fileTypeSolidity" /> */}
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
