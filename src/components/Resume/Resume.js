@@ -9,25 +9,25 @@ import axios from "axios";
 import pdf from "../../Assets/Resume_Yash_Agrawal.pdf";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+  // const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+  // const [spojRank, upadteSpojRank] = useState(0);
+  // const [hackerrank, upadteHackerank] = useState(0);
+  // const [sem, upadateSem] = useState(0);
+  // const [cgpa, upadteCgpa] = useState(0);
 
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(uri)
+  //     .then((res) => {
+  //       // upadteSpojRank(res.data.message[0].spojRank);
+  //       // upadteHackerank(res.data.message[1].hackerrank);
+  //       // upadteCgpa(res.data.message[2].cgpa);
+  //       // upadateSem(res.data.message[3].sem);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // }, []);
 
   return (
     <Container fluid className="resume-section">
@@ -40,41 +40,25 @@ function Resume() {
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            {/* <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-title">Work Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="SDE Intern (@CS Mock)"
+              date="May 2021 - July 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            /> */}
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Graphic Designer [Kreiva-2019 Cultural Fest of IIIT Vadodara]"
-              content={[
-                "Worked on designing the posters and flex for the fest using Adobe Illustrator",
+                "Implemented caching using redis.",
+                "Integrated razorpay on the platform.",
+                "Designed the relational database.",
+                "Developed several REST APIs.",
               ]}
             />
-            <Resumecontent
-              title="Graphic Designer [Cerebro-2020 Technical Fest of IIIT Vadodara]"
-              content={[
-                "Worked on designing the posters and flex for the fest using Adobe Illustrator",
-              ]}
-            />
-            <Resumecontent
-              title="Participant in Dramatics Event "
-              content={[
-                "Secured 2nd position in Inter College team dramatics event during Synapse 2019.",
-              ]}
-            />
-          </Col>
+            </Col>
+            
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="B.Tech in Computer Science & Engineering [IIIT Vadodara] "
               date="2018 - Present"
-              content={[`CGPA: 7.13 (Till 5th Sem)`]}
+              content={[`CGPA: 7.14 (Till 6th Sem)`]}
             />
             <Resumecontent
               title="12TH BOARD [Macro Vision Academy, Burhanpur]"
@@ -96,6 +80,33 @@ function Resume() {
                 "Participant in Hack-A-Bit 2019",
               ]}
             /> */}
+          </Col>
+          <Col md={6} className="resume-left">
+            <h3 className="resume-title">Extracurricular Activities</h3>
+            <Resumecontent
+              title="Under Top 8 in HackIIITV 2020"
+              content={[
+                "My team was under top 8 among 50 teams in intra-intitute hackathon.",
+              ]}
+            />
+            <Resumecontent
+              title="Graphic Designer [Kreiva-2019 Cultural Fest of IIIT Vadodara]"
+              content={[
+                "Worked on designing the posters and flex for the fest using Adobe Illustrator",
+              ]}
+            />
+            <Resumecontent
+              title="Graphic Designer [Cerebro-2020 Technical Fest of IIIT Vadodara]"
+              content={[
+                "Worked on designing the posters and flex for the fest using Adobe Illustrator",
+              ]}
+            />
+            <Resumecontent
+              title="Participant in Dramatics Event "
+              content={[
+                "Secured 2nd position in Inter College team dramatics event during Synapse 2019.",
+              ]}
+            />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>

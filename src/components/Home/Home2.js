@@ -15,13 +15,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Pre-final year student pursuing B.Tech in Computer Science & Engineering from Indian Institute of Information Technology Vadodara (IIITV) .
+              I am a Final year student pursuing B.Tech in Computer Science &
+              Engineering from Indian Institute of Information Technology
+              Vadodara (IIITV) .
               <br />
               <br />
               <i>
-                <b className="purple">
-                I am skilled in:
-                </b>
+                <b className="purple">I am skilled in:</b>
               </i>
               {/* <i>
                 <b className="purple"> C++, Javascript, ReactJs, Solidity, HTML. </b>
@@ -30,36 +30,22 @@ function Home2() {
               {/* <br /> */}
               Data Structures & Algorithms : &nbsp;
               <i>
-                <b className="purple">
-                  C++
-                </b>
+                <b className="purple">C++</b>
               </i>
               <br />
               Blockchain Development : &nbsp;
               <i>
-                <b className="purple">
-                  Solidity, Ethereum, IPFS.
-                </b>
+                <b className="purple">Solidity, Ethereum, IPFS.</b>
               </i>
               <br />
               Web Development : &nbsp;
               <i>
                 <b className="purple">
-                  ReactJs, Javascript, NodeJs, MongoDB, Express, HTML, CSS, Bootstrap, Material UI.
+                  ReactJs, NodeJs, MySQL, Javascript, HTML, CSS, Bootstrap,
+                  Material UI.
                 </b>
               </i>
               <br />
-             
-              {/* <br />
-              Whenever possible, I also apply my passion for developing products
-              with
-              <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
-              </i>
-                &nbsp; like
-              <i>
-                <b className="purple"> Node.js and React.js</b>
-              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">

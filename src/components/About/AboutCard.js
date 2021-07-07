@@ -21,7 +21,7 @@ function AboutCard() {
               <i className="far fa-hand-point-right"></i> Graphic Designing
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Stocks Trading
+              <i className="far fa-hand-point-right"></i> Stocks and Crypto Trading
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Reading Novels
@@ -30,6 +30,8 @@ function AboutCard() {
               <i className="far fa-hand-point-right"></i> Watching Web Series & Movies
             </li>
           </ul>
+          <br/>
+          <p style={{ textAlign: "justify" }}><span className="purple">Fun Fact:</span> Tea is a key to make me do anything😀.</p>
 
           {/* <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}

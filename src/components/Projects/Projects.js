@@ -7,6 +7,8 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import healthcare from "../../Assets/Projects/healthcare.png";
+import twitterClone from "../../Assets/Projects/twitterClone.png";
+import crypto from "../../Assets/Projects/crypto.jpg";
 import meme from "../../Assets/Projects/meme.jpg";
 import railway from "../../Assets/Projects/railway.jpg";
 
@@ -25,6 +27,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twitterClone}
+              isBlog={false}
+              title="Twitter Clone"
+              description={`A twitter clone, having functionalites to post tweets, powered with firebase.`}
+              technology = " ReactJs, CSS, Material UI, Firebase"
+              link="https://twitter-clone-ad26a.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="'Watch Crypto' a web extension"
+              description={`A google chrome web extension to watch live cryptocurrency details.`}
+              technology = " ReactJs, CSS"
+              link="https://github.com/yashagrawal3107/Watch__Cryptocurrency_chrome_extension"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={healthcare}
