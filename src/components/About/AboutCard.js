@@ -23,9 +23,9 @@ function AboutCard() {
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Stocks and Crypto Trading
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Reading Novels
-            </li>
+            </li> */}
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Watching Web Series & Movies
             </li>
