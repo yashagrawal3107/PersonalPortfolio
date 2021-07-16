@@ -15,8 +15,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Final year student pursuing B.Tech in Computer Science &
-              Engineering from Indian Institute of Information Technology
+              I am a final year student pursuing B.Tech in Computer Science &
+              Engineering at Indian Institute of Information Technology
               Vadodara (IIITV) .
               <br />
               <br />

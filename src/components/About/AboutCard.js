@@ -10,8 +10,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi, I am <span className="purple">Yash Agrawal </span>
-            from <span className="purple"> Burhanpur, India.</span>
-            <br />I am a fianl year student pursuing B.Tech. in Computer Science & Engineering from <span className="purple"> Indian Institute of Information Technology Vadodara, Gujarat. </span>
+            from <span className="purple"> Madhya Pradesh, India.</span>
+            <br />I am a final year student pursuing B.Tech. in Computer Science & Engineering at <span className="purple"> Indian Institute of Information Technology Vadodara, Gujarat. </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -31,7 +31,7 @@ function AboutCard() {
             </li>
           </ul>
           <br/>
-          <p style={{ textAlign: "justify" }}><span className="purple">Fun Fact:</span> Tea is a key to make me do anything😀.</p>
+          {/* <p style={{ textAlign: "justify" }}><span className="purple">Fun Fact:</span> Tea is a key to make me do anything😀.</p> */}
 
           {/* <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
