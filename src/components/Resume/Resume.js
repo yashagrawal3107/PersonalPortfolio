@@ -45,7 +45,8 @@ function Resume() {
               title="SDE Intern (@CS Mock)"
               date="May 2021 - July 2021"
               content={[
-                "Implemented caching using redis",
+                "Developed complete frontend for the MVP",
+                "Implemented internal caching",
                 "Integrated razorpay on the platform",
                 "Designed the relational database",
                 "Developed several REST APIs",
