@@ -11,7 +11,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi, I am <span className="purple">Yash Agrawal </span>
             from <span className="purple"> Madhya Pradesh, India.</span>
-            <br />I am a final year student pursuing B.Tech. in Computer Science & Engineering at <span className="purple"> Indian Institute of Information Technology Vadodara, Gujarat. </span>
+            <br />I am a Software Engineer at <span className="purple"> Shiprocket, India. </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

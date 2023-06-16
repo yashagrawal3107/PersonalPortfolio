@@ -27,7 +27,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/YashAgr83718884"
+                href="https://twitter.com/0xAgrawalYash"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-twitter"></i>
@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/-yash-agrawal/"
+                href="https://www.linkedin.com/in/yashagrawal31/"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-linkedin-in"></i>

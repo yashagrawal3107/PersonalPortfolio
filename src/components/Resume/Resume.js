@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import axios from "axios";
-import pdf from "../../Assets/Resume_Yash_Agrawal.pdf";
+import pdf from "../../Assets/Resume_Yash_Agrawal (2).pdf";
 
 function Resume() {
   // const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -42,6 +42,24 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Work Experience</h3>
             <Resumecontent
+              title="Software Engineer (@Shiprocket)"
+              date="June 2022 - Present"
+              content={[
+                "Handling Wallet and Billing Services",
+                "Migrated Wallet service from Php to Golang",
+                "Implemented Vertical Sharding Of Major tables in MySQ",
+                "Continuously working on finding use cases within Shiprocket to introduce Kafka in the architecture",
+              ]}
+            />
+             <Resumecontent
+              title="SDE Intern (@Shiprocket)"
+              date="Oct 2021 - May 2022"
+              content={[
+                "Worked on Kafka and Ksqldb to streamline events from different microservices, database and transform them accordingly",
+                "Objective behind this was to reduce the latency, microservices dependency and decouple the architecture",
+                ]}
+            />
+            <Resumecontent
               title="SDE Intern (@CS Mock)"
               date="May 2021 - July 2021"
               content={[
@@ -58,8 +76,8 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="B.Tech in Computer Science & Engineering [IIIT Vadodara] "
-              date="2018 - Present"
-              content={[`CGPA: 7.14 (Till 6th Sem)`]}
+              date="2018 - 2022"
+              content={[`CGPA: 7.53/10`]}
             />
             <Resumecontent
               title="12TH BOARD [Macro Vision Academy, Burhanpur]"

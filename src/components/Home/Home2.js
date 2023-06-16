@@ -15,9 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a final year student pursuing B.Tech in Computer Science &
-              Engineering at Indian Institute of Information Technology
-              Vadodara (IIITV) .
+              I am a Software Engineer at Shiprocket. I am prominently working on Wallet and Billing Service of Shiprocket.
               <br />
               <br />
               <i>
@@ -26,6 +24,11 @@ function Home2() {
               {/* <i>
                 <b className="purple"> C++, Javascript, ReactJs, Solidity, HTML. </b>
               </i> */}
+              <br />
+              Software Development : &nbsp;
+              <i>
+                <b className="purple">Golang, Buffalo, Php, Kafka</b>
+              </i>
               <br />
               {/* <br /> */}
               Data Structures & Algorithms : &nbsp;
@@ -73,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/YashAgr83718884"
+                  href="https://twitter.com/0xAgrawalYash"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -83,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/-yash-agrawal/"
+                  href="https://www.linkedin.com/in/yashagrawal31/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

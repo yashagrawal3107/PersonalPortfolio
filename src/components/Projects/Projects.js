@@ -14,6 +14,9 @@ import railway from "../../Assets/Projects/railway.jpg";
 
 import xampp from "../../Assets/Projects/xampp.png";
 
+import kafka from "../../Assets/Projects/kafka-logo.jpg";
+
+
 
 function Projects() {
   return (
@@ -96,12 +99,21 @@ Admin side."
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
+              imgPath={kafka}
+              link=""
+              title="Kafka Basics"
+              site="https://www.linkedin.com/feed/update/urn:li:activity:6936882552368431104/"
+            />
+          </Col>
+          {/* <Col md={4} className="blog-card">
+            <BlogCard
               imgPath={xampp}
               link=""
               title="How to install XAMPP on Windows?"
               site="https://dev.to/yashagrawal3107/how-to-install-xampp-in-windows-1a24"
             />
-          </Col>
+          </Col> */}
+         
           {/* <Col md={4} className="blog-card">
             <BlogCard
               imgPath={plant}
